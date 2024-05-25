@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## <!--  -->
 
-## Getting Started
+![React](https://img.shields.io/badge/-react-000?style=for-the-badge&logo=react)
+![NextJS](https://img.shields.io/badge/-next.js-000?style=for-the-badge&logo=next.js)
+![TailwindCSS](https://img.shields.io/badge/-tailwindcss-000?style=for-the-badge&logo=tailwindcss)
 
-First, run the development server:
+# NOVAA-demo 🌐🧑‍💻
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![GitHub](https://img.shields.io/github/forks/anuja-rahul/novaa-demo?style=for-the-badge&logo=github)
+&nbsp;
+![GitHub](https://img.shields.io/github/license/anuja-rahul/novaa-demo?style=for-the-badge&logo=github)
+&nbsp;
+![GitHub](https://img.shields.io/github/stars/anuja-rahul/novaa-demo?style=for-the-badge&logo=github)
+&nbsp;
+![Contributors](https://img.shields.io/github/contributors/anuja-rahul/novaa-demo?style=for-the-badge&logo=github)
+&nbsp;
+![Watchers](https://img.shields.io/github/watchers/anuja-rahul/novaa-demo?style=for-the-badge&logo=github)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[![Project-Type](https://img.shields.io/badge/Project%20type-Frontend-darkblue.svg)](https://github.com/anuja-rahul/novaa-demo)
+&nbsp;  
+[![Project-Status](https://img.shields.io/badge/Project%20Status-working_on_basic_ui-yellow.svg)](https://github.com/anuja-rahul/novaa-demo)
+&nbsp;  
+[![Project-Version](https://img.shields.io/badge/Version-v0.1-green.svg)](https://github.com/anuja-rahul/shop-nextjs)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### A demo site made for practising collaboration skills with NOVAA dev team.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Visit Us: [here](/)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuja-rahul&repo=novaa-demo&theme=nightowl)
