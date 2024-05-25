@@ -1,0 +1,14 @@
+.layout {
+  z-index: 99;
+  position: relative;
+  height: auto;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Coolvetica", "sans-serif";
+  color: #444;
+
+  overflow-x: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
