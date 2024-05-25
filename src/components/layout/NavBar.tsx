@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-neutral text-white">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+          <div tabIndex={0} role="button" className="btn btn-circle btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -23,7 +23,7 @@ export default function NavBar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow text-slate-900"
           >
             <li>
               <Link href="/team/achintha-ekanayake">Achintha Ekanayake</Link>
@@ -46,10 +46,12 @@ export default function NavBar() {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost text-xl">NOVAA demo</a>
+        <Link className="btn btn-ghost text-2xl font-semibold text-white" href="/">
+          NOVAA demo
+        </Link>
       </div>
       <div className="navbar-end">
-        <Link className="btn btn-ghost btn-circle" href="/">
+        <Link className="btn btn-circle btn-ghost" href="/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -65,7 +67,7 @@ export default function NavBar() {
             />
           </svg>
         </Link>
-        <Link className="btn btn-ghost btn-circle" href="/">
+        <Link className="btn btn-circle btn-ghost" href="/">
           <div className="indicator">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +83,7 @@ export default function NavBar() {
                 d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
               />
             </svg>
-            <span className="badge badge-xs badge-primary indicator-item"></span>
+            <span className="badge indicator-item badge-primary badge-xs"></span>
           </div>
         </Link>
       </div>
