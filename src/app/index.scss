@@ -1,0 +1,20 @@
+.team-cards {
+  transition: all 0.6s;
+
+  &:hover {
+    transform: translateY(-6px);
+    scale: 1.01;
+  }
+}
+
+.left {
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  animation: bounceInLeft 1s;
+}
+
+.right {
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  animation: bounceInRight 1s;
+}
