@@ -101,6 +101,64 @@ export default function Home() {
           </div>
         ))}
       </div>
+      <div className="mt-8 flex flex-row flex-wrap items-center justify-center text-balance text-center">
+        <h1 className="mb-4 w-full text-2xl sm:text-3xl">
+          Don{"'"}t forget to rate us:
+        </h1>
+        <div className="rating rating-half rating-lg">
+          <input type="radio" name="rating-10" className="rating-hidden" />
+          <input
+            type="radio"
+            name="rating-10"
+            className="mask mask-half-1 mask-star-2 bg-primary "
+          />
+          <input
+            type="radio"
+            name="rating-10"
+            className="mask mask-half-2 mask-star-2 bg-primary"
+          />
+          <input
+            type="radio"
+            name="rating-10"
+            className="mask mask-half-1 mask-star-2 bg-primary"
+          />
+          <input
+            type="radio"
+            name="rating-10"
+            className="mask mask-half-2 mask-star-2 bg-primary"
+          />
+          <input
+            type="radio"
+            name="rating-10"
+            className="mask mask-half-1 mask-star-2 bg-primary"
+          />
+          <input
+            type="radio"
+            name="rating-10"
+            className="mask mask-half-2 mask-star-2 bg-primary"
+          />
+          <input
+            type="radio"
+            name="rating-10"
+            className="mask mask-half-1 mask-star-2 bg-primary"
+          />
+          <input
+            type="radio"
+            name="rating-10"
+            className="mask mask-half-2 mask-star-2 bg-primary"
+          />
+          <input
+            type="radio"
+            name="rating-10"
+            className="mask mask-half-1 mask-star-2 bg-primary"
+          />
+          <input
+            type="radio"
+            name="rating-10"
+            className="mask mask-half-2 mask-star-2 bg-primary"
+          />
+        </div>
+      </div>
     </main>
   );
 }
