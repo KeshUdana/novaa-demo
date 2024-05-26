@@ -40,24 +40,27 @@ export default function Home() {
               <h2 className="card-title">{member.UserName}</h2>
               {member.role.map((role, index) => (
                 <div className="badge badge-success badge-outline" key={index}>
-                {role}
-              </div>
+                  {role}
+                </div>
               ))}
-              
+
               <p className="flex flex-wrap items-center justify-center text-balance text-center">
                 {member.description}
               </p>
-              <div className="card-actions justify-end mb-2">
+              <div className="card-actions mb-2 justify-end">
                 <Link className="btn btn-primary" href={member.path}>
                   Visit
                 </Link>
               </div>
-              <div className="flex flex-wrap flex-row gap-2">
-              {member.tech.map((tech, index) => (
-                <div className="badge badge-warning badge-outline" key={index}>
-                {tech}
-              </div>
-              ))}
+              <div className="flex flex-row flex-wrap items-center justify-center gap-2">
+                {member.tech.map((tech, index) => (
+                  <div
+                    className="badge badge-warning badge-outline"
+                    key={index}
+                  >
+                    {tech}
+                  </div>
+                ))}
               </div>
             </div>
           </div>
