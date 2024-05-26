@@ -62,16 +62,18 @@ export default function Home() {
               className="mx-3 my-auto flex max-h-[20rem] w-auto items-center justify-center rounded-xl"
             />
 
-            <div className="card-body flex items-center justify-center text-center">
+            <div className="card-body flex flex-wrap items-center justify-center text-center">
               <h2 className="card-title">{member.UserName}</h2>
-              {member.role.map((role, index) => (
-                <div
-                  className="role-badge badge badge-success badge-outline"
-                  key={index}
-                >
-                  {role}
-                </div>
-              ))}
+              <div className="flex flex-row flex-wrap items-center justify-center gap-1">
+                {member.role.map((role, index) => (
+                  <div
+                    className="role-badge badge badge-success badge-outline"
+                    key={index}
+                  >
+                    {role}
+                  </div>
+                ))}
+              </div>
 
               <p className="flex flex-wrap items-center justify-center text-balance text-center">
                 {member.description}

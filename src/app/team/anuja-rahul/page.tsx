@@ -1,4 +1,5 @@
 import UserSteps from "@/components/UserSteps";
+import "./index.scss";
 
 export const metadata = {
   title: "NOVAA demo - Anuja",

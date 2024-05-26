@@ -1,4 +1,5 @@
 import UserSteps from "@/components/UserSteps";
+import "./index.css";
 
 export const metadata = {
   title: "NOVAA demo - Chalaka",

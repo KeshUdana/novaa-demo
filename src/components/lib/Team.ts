@@ -12,7 +12,7 @@ export const Team = [
   },
   {
     UserName: "Achintha Ekanayake",
-    role: ["ML Engineer", "AI Specialist"],
+    role: ["Minion", "ML Engineer", "AI Specialist"],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nostrum nesciunt laborum nulla quisquam ullam reprehenderit molestias amet officiis optio dolor, quasi, consectetur itaque quod tempore et veniam ab quam?",
     path: "/team/achintha-ekanayake",
@@ -23,7 +23,7 @@ export const Team = [
   },
   {
     UserName: "Anuja Rahul",
-    role: ["Frontend Developer", "Backend Developer"],
+    role: ["Minion", "Frontend Developer", "Backend Developer"],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nostrum nesciunt laborum nulla quisquam ullam reprehenderit molestias amet officiis optio dolor, quasi, consectetur itaque quod tempore et veniam ab quam?",
     path: "/team/anuja-rahul",
@@ -34,7 +34,7 @@ export const Team = [
   },
   {
     UserName: "Buddila Ruwanpathirana",
-    role: ["ML Engineer", "AI Specialist"],
+    role: ["Minion", "ML Engineer", "AI Specialist"],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nostrum nesciunt laborum nulla quisquam ullam reprehenderit molestias amet officiis optio dolor, quasi, consectetur itaque quod tempore et veniam ab quam?",
     path: "/team/buddila-ruwanpathirana",
@@ -45,7 +45,7 @@ export const Team = [
   },
   {
     UserName: "Chalaka Buthsara",
-    role: ["UI/UX", "Frontend Developer"],
+    role: ["Minion", "UI/UX", "Frontend Developer"],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nostrum nesciunt laborum nulla quisquam ullam reprehenderit molestias amet officiis optio dolor, quasi, consectetur itaque quod tempore et veniam ab quam?",
     path: "/team/chalaka-buthsara",
