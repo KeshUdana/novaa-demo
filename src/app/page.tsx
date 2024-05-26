@@ -45,7 +45,7 @@ export default function Home() {
 
       <h1 className="mb-8 text-3xl sm:text-5xl">Meet the Team</h1>
 
-      <div className="flex flex-row flex-wrap items-center justify-center gap-4">
+      <div className="flex flex-row flex-wrap items-center justify-center gap-8">
         {Team.map((member, idx) => (
           <div
             className={clsx(
