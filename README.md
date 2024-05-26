@@ -81,7 +81,7 @@
 
 - Click `Pull Requests` option in your forked repository (which is the third option at the top of this page after the options `Code` and `Issues`).
 
-- Click the green New Pull Request button. This will prep the new pull request for you by auto-filling the base repository: base with 'EddieGitHubCommunity: main' AND auto-filling your head repository: compare with your repository: main
+- Click the green New Pull Request button. This will prep the new pull request for you by auto-filling the base repository: base with 'anuja-rahul/novaa-demo: main' AND auto-filling your head repository: compare with your repository: main
 
 - Click on your head repository's `compare` dropdown, and switch branches from your 'main' branch to `<new branch name>`.
 
