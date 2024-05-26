@@ -34,6 +34,8 @@
 
 ---
 
+# Steps to follow
+
 **1. Fork the project:**
 
 - Click the gray <kbd>Fork</kbd> button at the top right of this page. This creates your copy of the project and saves it as a new repository in your GitHub account.
@@ -52,6 +54,7 @@
 
   - To obtain a cloning link you can click the green button named <kbd><> code</kbd> on the top right of your repository main page and copy the path or simply download the `zip` file.
   - In case of cloning, simply run:
+
 
   ```cmd
   git clone <path>
