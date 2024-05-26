@@ -50,7 +50,7 @@
 
 - Clone this new branch to your computer. Open it with your preferred editor.
 
-  - To obtain a cloning link you can click the green button named `<> code` on the top right of your repository main page and copy the path or simply download the `zip` file.
+  - To obtain a cloning link you can click the green button named <kbd><> code</kbd> on the top right of your repository main page and copy the path or simply download the `zip` file.
   - In case of cloning, simply run:
 
   ```cmd
